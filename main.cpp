@@ -7,5 +7,10 @@ int main()
     double sales = 10;
     std::cout << file_size;
 
+
+
+    std::cout << std::endl;
+    system("PAUSE");
+
     return 0;
 }
