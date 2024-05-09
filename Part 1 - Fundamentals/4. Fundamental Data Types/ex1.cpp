@@ -10,8 +10,8 @@ int main (){
     srand(time(0));
     short first = (rand()%(maxValue-minValue +1)) + minValue ;        
     short second = (rand()%(maxValue-minValue +1)) + minValue ;
-
     cout<< first<<","<< second ;
+    
     std::cout << std::endl;
     system("PAUSE");
     return 0;
