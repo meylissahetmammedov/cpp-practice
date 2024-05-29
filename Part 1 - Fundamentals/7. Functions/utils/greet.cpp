@@ -2,7 +2,9 @@
 
 using namespace std;
 
-void greet(string name)
-{
+namespace messaging {
+void greet(string name){
      cout << "Hello" << name << endl;
+}
+
 }

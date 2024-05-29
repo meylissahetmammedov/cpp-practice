@@ -3,7 +3,10 @@
 
 #include <string>
 
-// Function declaration(function prototype)
+namespace messaging{
 void greet(std::string name);
+}
+
+// Function declaration(function prototype)
 
 #endif
