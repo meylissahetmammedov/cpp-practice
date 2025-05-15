@@ -13,7 +13,7 @@ int main()
 
     else
     {
-        int factorial = 1; /*factorial eger 3 girissek 3*2*1=6 bolya*/
+        int factorial = 0; /*factorial eger 3 girissek 3*2*1=6 bolya*/
         for (int i = 1; i <= number; i++)
             factorial *= i;
         cout << "The factorial of " << number << ":" << factorial << endl;
