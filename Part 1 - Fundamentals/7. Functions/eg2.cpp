@@ -2,14 +2,15 @@
 
 using namespace std;
 
-double calculateTaxe(double income, double taxRate = .2){
-    return  (income * taxRate);
+double calculateTaxe(double income, double taxRate = .2)
+{
+    return (income * taxRate);
 }
 
-int main (){
-    double tax = calculateTaxe(10'000 , .3);
+int main()
+{
+    double tax = calculateTaxe(10'000, .4);
     cout << tax << endl;
-
 
     system("PAUSE");
     return 0;
