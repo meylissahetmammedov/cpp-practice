@@ -9,6 +9,11 @@ void print0ddNumber(int limit)
         if (i % 3 == 0)
             cout << i << endl;
     }
+    for (int m = 0; m < limit; m++)
+    {
+        if (m % 2 == 0)
+            cout << m << endl;
+    }
 }
 
 int main()
