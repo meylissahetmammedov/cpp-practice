@@ -17,9 +17,9 @@ int main()
         entries++;
         if (entries == capacity)
         {
-            capacity *= 2;
+
             // Create a temp array (twice the size)
-            int *temp = new int[10];
+            int *temp = new int[capacity *= 2];
             for (int i = 0; i < entries; i++)
                 temp[i] = numbers[i];
             delete[] numbers;
