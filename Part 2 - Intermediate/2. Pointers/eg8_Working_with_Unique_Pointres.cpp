@@ -5,9 +5,9 @@ using namespace std;
 
 int main()
 {
-    auto numbers = make_unique<int[]>(12);
+    auto numbers = make_unique<int[]>(15);
     auto y = make_unique<int>();
-    numbers[0] = 12;
+    numbers[0] = 15;
     cout << numbers[0] << endl;
 
     system("PAUSE");
