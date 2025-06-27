@@ -13,6 +13,9 @@ int main()
     string name2 = " Meylis Sahetmammedov";
     cout << isspace(name2[0]) << endl;
 
+    string name3 = " Meylis Sahetmammedov";
+    cout << toupper('a') << endl;
+
     system("PAUSE");
     return 0;
 }
