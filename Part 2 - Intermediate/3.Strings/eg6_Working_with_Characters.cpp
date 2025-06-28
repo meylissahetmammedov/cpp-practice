@@ -16,6 +16,9 @@ int main()
     string name3 = " Meylis Sahetmammedov";
     cout << toupper('a') << endl;
 
+    string name4 = " Meylis Sahetmammedov";
+    cout << (char)tolower('A') << endl;
+
     system("PAUSE");
     return 0;
 }
