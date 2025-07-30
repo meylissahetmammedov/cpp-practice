@@ -1,5 +1,6 @@
 #include <iostream>
 #include <fstream>
+#include <string>
 
 using namespace std;
 
@@ -17,8 +18,25 @@ int main()
     if (file.is_open())
     {
         string str;
-        getline(file, str); // getline ) diyip yazanda sol setirin hemmesini alyp getirya
-        cout << str << endl;
+        getline(file, str);
+        while (!file.eof())
+        {
+            getline(file, str, ',');
+            if (str.empty())
+                continue;
+            // bu kod bolsa gidip dakimentdaki filimin adyny alyp gelya
+            Movie movie;
+            movie.id = stoi(str);
+
+            getline(file, str, ',');
+            movie.title = str;
+
+            getline(file, str);
+            movie.year = stoi(str);
+
+            cout << movie.title << endl;
+        }
+
         file.close();
     }
 
