@@ -6,6 +6,7 @@ struct Movie
 {
     string title;
     int year;
+    string actor;
 };
 
 Movie parseMovie(string str)
@@ -15,16 +16,20 @@ Movie parseMovie(string str)
 
     Movie movie;
     getline(stream, movie.title, ',');
-    stream >> movie.year;
+    stream >> ws >> movie.year;
+    stream.ignore();
+
+    getline(stream >> ws, movie.actor);
 
     return movie;
 }
 
 int main()
 {
-    auto movie = parseMovie("Terminator 1,1984");
-    cout << movie.title << endl;
-    cout << movie.year << endl;
+    auto movie = parseMovie("Terminator 1, 1984, Arnold Schwarzenegge");
+    cout << "Title: " << movie.title << endl;
+    cout << "Year: " << movie.year << endl;
+    cout << "Actor: " << movie.actor << endl;
 
     int pause;
     cin >> pause;
