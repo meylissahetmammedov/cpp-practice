@@ -9,5 +9,5 @@ int main()
     box.setValue("Hello World");
     cout << box.getValue();
 
-    return 1;
+    return 0;
 }
