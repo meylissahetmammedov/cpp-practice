@@ -5,22 +5,14 @@ using namespace std;
 
 int main()
 {
-    Volume v;
-    double w, l, h;
+    long long a;
+    cout << "Enter the number: ";
+    cin >> a;
 
-    cout << "Enter width: ";
-    cin >> w;
-    v.setWidth(w);
+    int b = 10;
 
-    cout << "Enter length: ";
-    cin >> l;
-    v.setLength(l);
-
-    cout << "Enter height: ";
-    cin >> h;
-    v.setHeight(h);
-
-    v.print();
+    int c = a % b;
+    cout << "Last digit number: " << c << endl;
 
     return 0;
 }
