@@ -1,18 +1,14 @@
 #include <iostream>
-#include "Part_3_Advanced/1.Classes/Volume/Volume.h"
+#include "Part_3_Advanced/1.Classes/TextBox/TextBox.h"
+#include "Part_3_Advanced/1.Classes/TextBox/TextBox.cpp"
 
 using namespace std;
 
 int main()
 {
-    long long a;
-    cout << "Enter the number: ";
-    cin >> a;
-
-    int b = 10;
-
-    int c = a % b;
-    cout << "Last digit number: " << c << endl;
+    TextBox box;
+    box.setValue("Hello World");
+    cout << box.getValue();
 
     return 0;
 }
