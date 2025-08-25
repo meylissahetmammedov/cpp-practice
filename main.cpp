@@ -6,9 +6,13 @@ using namespace std;
 
 int main()
 {
-    TextBox box;
-    box.setValue("Hello World");
-    cout << box.getValue();
+   double a;
+    cout << "Cm olcegini giriz: ";
+    cin >> a;
+
+    double b = a / 100;
+    cout << "Inede sen meter olcegin: " << b << "metir" << endl;
+
 
     return 0;
 }
