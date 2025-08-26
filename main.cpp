@@ -7,17 +7,17 @@ using namespace std;
 int main()
 {
    double a;
-    cout << "Cm olcegini giriz: ";
+    cout << "KG olcegini giriz: ";
     cin >> a;
 
+    double b = a/ 1000;
+
     double c;
-    cout << "Metir olcegini girizin: ";
+    cout << "Ton olceginzi girizin: ";
     cin >> c;
+    double d = c * 1000;
 
-    double b = a / 100;
-    cout << "Inede sen meter olcegin: " << b << "metir" << endl;
-
-    double d = c*100;
-    cout << "inede sen cm olcegin:" <<d << "cm" << endl;
+    cout << "Sizin jogabynyz netijesi: " << b << " tonna" <<" = " << a<<" kg "<< endl;
+    cout << "Sizin jogabynyz netijesi: " << d << " kg "<< "=" << c<< "tonna "<< endl;
     return 0;
 }
