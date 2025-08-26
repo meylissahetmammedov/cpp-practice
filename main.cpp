@@ -6,18 +6,13 @@ using namespace std;
 
 int main()
 {
-   double a;
-    cout << "KG olcegini giriz: ";
+   int a;
+    cout << "Kilobayt  giriz: ";
     cin >> a;
 
-    double b = a/ 1000;
+    int b = a* 1024;
 
-    double c;
-    cout << "Ton olceginzi girizin: ";
-    cin >> c;
-    double d = c * 1000;
+    cout<< "Netije: "<<a << " kilobayt = " <<b << " bayt" << endl;
 
-    cout << "Sizin jogabynyz netijesi: " << b << " tonna" <<" = " << a<<" kg "<< endl;
-    cout << "Sizin jogabynyz netijesi: " << d << " kg "<< "=" << c<< "tonna "<< endl;
     return 0;
 }
