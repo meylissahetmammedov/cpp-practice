@@ -20,8 +20,8 @@ int main(){
         b = 0;
     }
 
-    cout<< "A nyn yaze bahasy: " << a << endl;
-    cout<< "B nyn yaze bahasy: " << b << endl;
+    cout<< "A nyn taze bahasy: " << a << endl;
+    cout<< "B nyn taze bahasy: " << b << endl;
 
     //A,B san girizende eger bahalry den dal bolsa onda olary biri brinin ustune gosamly ve ikisinem capa cykarmaly, eger ikisinin bahasy den bolsa 0 den diyip cykarmaly
 
