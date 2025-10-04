@@ -9,12 +9,13 @@ int main(){
     cout<< " B san giriz: ";
     cin >>  b;
 
-    if (a < b || b < a) {
-        int jem1 = a + 1;
-        int jem2 = b + 1;
-        a = jem1 ;
-        b = jem2 ;
-
+    if (a != b ) {
+        int max = a;
+        if (b > max) {
+            max = b;
+        }
+        a = max;
+        b = max;
     }else {
         a = 0;
         b = 0;
