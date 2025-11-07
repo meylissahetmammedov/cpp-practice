@@ -16,6 +16,7 @@ int main() {
     cout << "Sanlar :  "<< endl;
 
 
+
     for (int i = 0; i <= a; i++) {
         jem += (a + i) * (a + i);
         if (i == 0) {
