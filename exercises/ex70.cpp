@@ -5,6 +5,7 @@ int main() {
     cout << "Suyjinin bahasyny giriz:";
     cin >> suyjininBahasy;
 
+
     if (suyjininBahasy <= 0) {
         cout << " (0 dan uly san girizmeli!!)" << endl;
         return 1;
