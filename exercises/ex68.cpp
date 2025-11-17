@@ -15,7 +15,6 @@ int main() {
         return 1;
     }
 
-
     cout << "Sanlar: ";
     // A'dan B'sana  aralygyndaky sanlary kemelyan sekilde  capa cykarmaly we opsy nace san capa cykarlanyly capa cykarmaly
     for (int i = B; i > A; i--) {
