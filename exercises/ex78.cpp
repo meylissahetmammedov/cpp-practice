@@ -11,7 +11,6 @@ int main() {
         return 1;
     }
 
-
     cout << "Jobap:  "<< endl;
     cout <<  n*n << " = " ;
 
