@@ -27,7 +27,6 @@ int main() {
         }
     }
 
-
     cout << jem << endl;
 
     return 0;
