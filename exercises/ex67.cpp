@@ -27,6 +27,5 @@ int main() {
 
     cout << "Sanlaryn sany: " << san << endl;
 
-
     return 0;
 }
