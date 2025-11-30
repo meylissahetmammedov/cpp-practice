@@ -8,6 +8,7 @@ int main(){
 
     bool artykYyl = false;
 
+
     if (yyl % 4 == 0) {
         if (yyl % 100 == 0) {
 
