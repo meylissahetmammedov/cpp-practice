@@ -10,6 +10,7 @@ int main(){
     cout << "B nokat: " ;
     cin >>  OY;
 
+
     if (OX == 0 && OY == 0) {
         cout <<"Jogap: " << 0;
     } else if (OX == 0) {
