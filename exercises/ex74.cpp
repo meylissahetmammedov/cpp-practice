@@ -14,7 +14,6 @@ int main() {
         cout << " A < B bolmaly!" << endl;
         return 1;
     }
-
     int jem = 0;
     cout << "Sanlar we kwadratlary  "<< endl;
     // A'dan B'sana  aralygyndaky sanlaryn kwadratlaryny  tapmaly ve kwadradlary jemini tapmaly
