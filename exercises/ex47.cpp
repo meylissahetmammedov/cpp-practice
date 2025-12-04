@@ -13,6 +13,7 @@ int main(){
     int kici = min(a, b);
     int  uly = max(a, b);
 
+
     a = kici;
     b = uly;
 
