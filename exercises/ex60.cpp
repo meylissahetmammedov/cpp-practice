@@ -10,6 +10,7 @@ int main(){
     cout << "Y bahany giriz: " ;
     cin >>  OY;
 
+
     if (OX > 0 && OY > 0) {
         cout <<"1-njy caryek! " ;
     } else if (OX > 0 && OY < 0) {
