@@ -13,7 +13,6 @@ int main() {
         return 1;
     }
 
-
     b += 1;
     cout << "Jogap: "<< endl;
 
