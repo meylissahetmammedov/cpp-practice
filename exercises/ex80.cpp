@@ -7,7 +7,6 @@ int main() {
     cout << "N sanyny giriz:";
     cin >> n;
 
-
     if (n < 0 ) {
         cout << "Yalnys!! N > 0 bolmaly!" << endl;
 
