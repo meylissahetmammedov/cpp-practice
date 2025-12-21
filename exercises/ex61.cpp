@@ -9,6 +9,7 @@ int main(){
 
     int x4, y4;
 
+
     if (x1 == x2) {
         x4 = x3;
     } else if (x1 == x3) {
