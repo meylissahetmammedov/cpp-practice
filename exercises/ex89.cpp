@@ -14,7 +14,6 @@ int main() {
         return 1;
     }
 
-
     b += 1;
     int gaytalanjaksan = 0 ;
     cout << "Jogap: "<< endl;
