@@ -12,6 +12,5 @@ int main(){
     string jogap = Positive ? "Positive" : (Negative ? "Negative" : "nol");
     cout << "Jogap: "<< jogap << endl;
 
-
     return 0;
 }
