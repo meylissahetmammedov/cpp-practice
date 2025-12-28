@@ -11,7 +11,7 @@ int main() {
 
         return 1;
     }
-
+ 
 
     int jem = 0 ;
     cout << "Mesele: ";
