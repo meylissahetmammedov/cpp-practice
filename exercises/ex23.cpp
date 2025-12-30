@@ -11,6 +11,7 @@ int main(){
     };
     int b = (a % 3600)/60;
 
+
     //Beeilen sekundy , in sonky sagadynda nece minut gecenligini capa cykarmal
     cout << "Jogap: "<< b <<" minut "<<endl;
 
