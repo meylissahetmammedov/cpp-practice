@@ -6,6 +6,7 @@ int main(){
     cout << "Sekuntdan minda gecirmli san girizin: ";
     cin >> a;
 
+
     int b = a /60;
     //Beeilen sekundy , minut wagtyna  gecirmneli
     cout << "Jogap: "<< b <<" minut"<<endl;
