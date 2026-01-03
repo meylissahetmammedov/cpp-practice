@@ -14,6 +14,7 @@ int main(){
         }
     }
 
+
     string gunler[7]= {"Dusenbe" , "Sisenbe","Carsenbe", "Pensenbe","Anna", "Senbe","Yeksenbe",};
     string gun = gunler[(san % 7)];
 
