@@ -14,7 +14,6 @@ int main() {
         return 1;
     }
 
-
     int galansan = a;
     int san = 0;
 
