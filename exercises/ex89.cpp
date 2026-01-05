@@ -4,6 +4,7 @@ using namespace std;
 int main() {
     int a, b;
 
+
     cout << "A sany girizin (A < B): ";
     cin >> a ;
     cout << "B sany girizin (B > A):";
