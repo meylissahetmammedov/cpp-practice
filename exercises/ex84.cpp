@@ -11,6 +11,7 @@ int main() {
         return 1;
     }
 
+
     int jogap =0;
     int factorial = 1;
     cout << n<< "! = ";
