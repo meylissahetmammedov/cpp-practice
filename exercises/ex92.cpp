@@ -15,7 +15,6 @@ int main() {
     }
 
 
-
     int pay = 0;
     int galyndy = n;
 
