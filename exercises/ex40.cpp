@@ -7,8 +7,6 @@ int main(){
     cout<< " San giriz: ";
     cin >>  a;
 
-
-
     if ( a > 0  ) {
         cout << "Jogap:" << a+1 ;
     }else{
