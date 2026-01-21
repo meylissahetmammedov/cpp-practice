@@ -8,7 +8,6 @@ int main(){
     cin >>  a;
 
 
-
     if ( a > 0  ) {
         cout << "Jogap:" << a+1 ;
     }else if (a < 0) {
