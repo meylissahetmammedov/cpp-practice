@@ -13,7 +13,6 @@ int main(){
 
 
 
-
     if ( a > 0 && b > 0 && c > 0 ) {
         cout << "Jogap: 3 sany   polozitel bar "  ;
     }else if (a <= 0 && b > 0 && c > 0) {
