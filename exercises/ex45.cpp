@@ -9,7 +9,6 @@ int main(){
     cout<< " Ikinji san giriz: ";
     cin >>  b;
 
-
     if ( a > b) {
         cout << "Senin beren sanyn kicisi : "<< b << endl;
     }else {
