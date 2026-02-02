@@ -11,7 +11,6 @@ int main() {
         return 1;
     }
 
-
     while (n % 3 == 0) {
         n/= 3;
     }
