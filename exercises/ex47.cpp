@@ -9,7 +9,6 @@ int main(){
     cout<< " B san giriz: ";
     cin >>  b;
 
-
     int kici = min(a, b);
     int  uly = max(a, b);
 
