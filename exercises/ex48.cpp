@@ -9,6 +9,7 @@ int main(){
     cout<< " B san giriz: ";
     cin >>  b;
 
+
     if (a != b) {
         int jem = a+ b;
         a = jem;
