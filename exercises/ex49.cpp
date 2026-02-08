@@ -9,7 +9,6 @@ int main(){
     cout<< " B san giriz: ";
     cin >>  b;
 
-
     if (a != b ) {
         int max = a;
         if (b > max) {
