@@ -21,7 +21,6 @@ int main(){
 
     cout << "In kici san: "<< kici;
 
-
     int pause;
     cin >> pause;
 
