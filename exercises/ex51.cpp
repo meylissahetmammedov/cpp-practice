@@ -11,7 +11,6 @@ int main(){
     cin >>  c;
 
 
-
     if(a > b && c > a || a < b && c < a ) {
         cout << "Ortaky san: " <<  a;
     }else if (b > c && a > b || b < c && a < b ) {
