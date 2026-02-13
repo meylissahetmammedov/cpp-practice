@@ -27,7 +27,6 @@ int main(){
         max = c;
     }
 
-
     if (a > min && a < max) {
         cout << "Ortaky san: " << a << endl;
     }
