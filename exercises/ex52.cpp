@@ -27,7 +27,6 @@ int main(){
         max = c;
     }
 
-
     cout <<"In kici san : "<< min << endl << "In uly san: "<<  max << endl;
 
 
