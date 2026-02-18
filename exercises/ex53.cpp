@@ -29,7 +29,6 @@ int main(){
 
     int ortakysan = a + b + c - min - max;
 
-
     cout << " In uly iki sanyn jemi: " << max + ortakysan << endl;
 
     int pause;
