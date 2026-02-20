@@ -17,7 +17,6 @@ int main(){
         cout << " Jogap: " << a * -1 << ", "<< b * -1 << ", "<< c * -1 <<  endl;
     }
 
-
     int pause;
     cin >> pause;
 
