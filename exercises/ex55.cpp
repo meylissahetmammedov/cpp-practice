@@ -11,7 +11,6 @@ int main(){
     cout<< " 3 - nji  san giriz: ";
     cin >> c;
 
-
     if ( a <= b && b <= c) {
         cout << "Jogap: " << a *2 << ", " << b *2 <<", " << c* 2 <<  endl;
     }if (a >= b && b >= c) {
