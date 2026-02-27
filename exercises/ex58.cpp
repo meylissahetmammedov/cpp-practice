@@ -12,7 +12,6 @@ int main(){
     cout << "C nokat: "  ;
     cin >> c;
 
-
     int b_uzaklyk = b - a;
     int c_uzaklyk = c - a;
 
