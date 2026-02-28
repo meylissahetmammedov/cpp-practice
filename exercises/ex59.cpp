@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
 
-
 int main(){
     cout << "A, B nokatlaryny giriz!! "<< endl;
     int OX, OY;
