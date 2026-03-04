@@ -15,6 +15,5 @@ int main(){
 
     cout <<"Jogap:" <<  netije << endl;
 
-
     return 0;
 }
