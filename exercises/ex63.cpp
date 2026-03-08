@@ -20,6 +20,7 @@ int main(){
         }
     }
 
+
     if (artykYyl) {
         cout << yyl << "-nji yyl artyk yyl, 366 gun" << endl;
     } else {
