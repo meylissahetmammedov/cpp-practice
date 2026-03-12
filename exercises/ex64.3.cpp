@@ -16,6 +16,5 @@ int main(){
 
     cout << "Jogap: "<< ysharat << " " << jubutTaklik << " " << " san" << endl;
 
-
     return 0;
 }
