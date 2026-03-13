@@ -10,6 +10,7 @@ int main(){
         return 1;
     }
 
+
     string takJubut = (san % 2 == 0) ? "jubut" : "tak";
 
     if (san < 10){
