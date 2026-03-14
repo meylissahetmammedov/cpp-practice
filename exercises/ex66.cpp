@@ -18,7 +18,6 @@ int main(){
         cout <<  san  ;
     }
 
-
     return 0;
 
 }
