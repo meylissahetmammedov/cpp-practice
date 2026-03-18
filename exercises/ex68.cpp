@@ -24,5 +24,6 @@ int main() {
     cout << endl;
     cout << "Sanlaryn sany: " << B-A << endl;
 
+
     return 0;
 }
