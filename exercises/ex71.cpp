@@ -10,7 +10,6 @@ int main() {
         return 1;
     }
 
-
     // suyjinin  bahasyny 1.2--2kg cenli bahsyny capa cykarmaly
     for (double i = 1.2; i <= 2 ; i+=0.2) {
         cout << i << "kg suyjinin bahasy: " ;
