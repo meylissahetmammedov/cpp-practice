@@ -24,7 +24,6 @@ int main() {
     }
     cout << endl;
 
-
     cout << "Sanlaryn jemi: " << jem << endl;
 
     return 0;
