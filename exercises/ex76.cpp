@@ -13,6 +13,7 @@ int main() {
 
     int jem = 0;
 
+
     cout << "Sanlar :  "<< endl;
 
     for (int i = 0; i <= a; i++) {
