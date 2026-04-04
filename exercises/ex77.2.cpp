@@ -26,6 +26,7 @@ int main() {
 
     }
 
+
     cout << " = "<< jem << endl;
     int pause ;
     cin >> pause;
