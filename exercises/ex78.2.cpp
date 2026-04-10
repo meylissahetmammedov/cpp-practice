@@ -14,7 +14,6 @@ int main() {
     cout << "Jobap:  "<< endl;
     cout <<  n*n << " = " ;
 
-
     int sum = 0;
     const int limit = 2 * n - 1;
     for (int i = 1; i <= limit; i+=2) {
