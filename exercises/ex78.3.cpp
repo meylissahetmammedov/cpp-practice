@@ -11,7 +11,6 @@ int main() {
         return 1;
     }
 
-
     cout << "Jobap:  "<< endl;
     cout <<  n*n << " = " ;
 
@@ -25,7 +24,6 @@ int main() {
             cout << taksan << " + ";
         }
     }
-
 
 
     int pause ;
