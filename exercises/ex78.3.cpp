@@ -25,7 +25,6 @@ int main() {
         }
     }
 
-
     int pause ;
     cin >> pause;
     return 0;
