@@ -13,7 +13,6 @@ int main() {
         return 1;
     }
 
-
     int netije =1;
     cout << "Jobap:  "<< endl;
     cout <<  a << "^" << n <<" = " ;
