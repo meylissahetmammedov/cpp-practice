@@ -27,7 +27,6 @@ int main() {
 
         cout << a << "^" << i << " = " << netije << endl ;
 
-
     }
 
     int pause ;
