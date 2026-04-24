@@ -12,7 +12,6 @@ int main() {
 
         return 1;
     }
-
     int kopeltmek =1;
     int jem = 1;
     cout << "Jobap:  "<< endl;
