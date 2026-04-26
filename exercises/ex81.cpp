@@ -25,7 +25,6 @@ int main() {
         } else {
             cout <<" + " <<a << "^"<< i ;
         }
-
     }
     cout <<" = "<< jem << endl;
 
