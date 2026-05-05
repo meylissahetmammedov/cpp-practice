@@ -38,7 +38,6 @@ int main() {
     }
     cout <<" = "<< jem << endl;
 
-
     int pause ;
     cin >> pause;
     return 0;
