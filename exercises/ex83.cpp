@@ -12,7 +12,6 @@ int main() {
     }
 
 
-
     int jogap =1;
 
     cout << n<< "! = ";
