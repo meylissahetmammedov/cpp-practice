@@ -14,7 +14,6 @@ int main() {
     int jogap =1;
 
 
-
     cout << n<< "! = ";
 
     for (int i = 1; i <= n; i++) {
