@@ -13,7 +13,6 @@ int main() {
 
 
 
-
     int jogap =0;
     int factorial = 1;
     cout << n<< "! = ";
