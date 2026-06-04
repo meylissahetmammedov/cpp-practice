@@ -14,7 +14,6 @@ int main() {
 
 
 
-
     double factorial = 1;
     cout << n<< "! = ";
 
