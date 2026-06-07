@@ -12,7 +12,6 @@ int main() {
         return 1;
     }
 
-
     double factorial = 1;
     cout << n<< "! = ";
 
