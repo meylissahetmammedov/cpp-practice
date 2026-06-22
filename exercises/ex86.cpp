@@ -16,7 +16,6 @@ int main() {
 
 
 
-
     int jem = 0 ;
     cout << "Mesele: ";
 
